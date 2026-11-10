@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f7ed">
+    <title>Virtual Dog Park | Meet Your New Pals</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Virtual Dog Park home">
+        <span class="brand-mark" aria-hidden="true">&#10022;</span>
+        <span>Virtual Dog Park</span>
+      </a>
+      <a class="nav-link" href="#encyclopedia">Dog encyclopedia <span aria-hidden="true">&#8599;</span></a>
+    </header>
+
+    <main id="home">
+      <section class="welcome" aria-labelledby="welcome-title">
+        <div class="welcome-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> YOUR LITTLE CORNER OF THE PARK</p>
+          <h1 id="welcome-title">Good dogs.<br><span>Great company.</span></h1>
+          <p class="welcome-text">A sunny spot to meet some lovely dogs and learn what makes each one special. Pick a pal and say hello.</p>
+          <div class="welcome-actions">
+            <a class="button button-primary" href="#encyclopedia">Meet the dogs <span aria-hidden="true">&#8595;</span></a>
+            <button class="button button-quiet" id="surprise-button" type="button"><span aria-hidden="true">&#10022;</span> Pick for me</button>
+          </div>
+          <p class="pick-message" id="pick-message" aria-live="polite"></p>
+        </div>
+        <div class="park-scene" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="cloud cloud-one"></div>
+          <div class="cloud cloud-two"></div>
+          <div class="hill hill-back"></div>
+          <div class="hill hill-front"></div>
+          <span class="scene-flower flower-one">&#10047;</span>
+          <span class="scene-flower flower-two">&#10047;</span>
+          <span class="scene-flower flower-three">&#10047;</span>
+          <span class="scene-sparkle sparkle-one">&#10022;</span>
+          <span class="scene-sparkle sparkle-two">&#10022;</span>
+          <div class="scene-note">good days<br>start here</div>
+        </div>
+        <div class="welcome-footer"><span>TAKE A BREATH</span><span class="footer-line"></span><span>YOU'RE IN GOOD COMPANY</span></div>
+      </section>
+
+      <section class="encyclopedia" id="encyclopedia" aria-labelledby="encyclopedia-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-eyebrow">THREE FRIENDLY FACES</p>
+            <h2 id="encyclopedia-title">The dog encyclopedia</h2>
+            <p class="section-intro">A few things to know before your first hello.</p>
+          </div>
+          <span class="dog-count"><span class="count-dot" aria-hidden="true"></span> 3 park pals</span>
+        </div>
+
+        <div class="dog-grid">
+          <article class="dog-card beagle-card" id="beagle">
+            <div class="dog-art">
+              <span class="art-label">THE SNIFFING EXPERT</span>
+              <img src="assets/beagle.svg" alt="Illustration of a Beagle." width="320" height="220">
+              <span class="art-number">01</span>
+            </div>
+            <div class="dog-info">
+              <div class="dog-title-row"><h3>Beagle</h3><span class="trait">Curious</span></div>
+              <p class="dog-description">A cheerful little explorer with a nose for adventure.</p>
+              <dl class="dog-facts">
+                <div><dt>Size</dt><dd>Small to medium</dd></div>
+                <div><dt>Personality</dt><dd>Friendly, curious, and merry</dd></div>
+                <div><dt>Everyday care</dt><dd>Daily walks and sniffing games</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="dog-card retriever-card" id="golden-retriever">
+            <div class="dog-art">
+              <span class="art-label">THE SUNNY SIDEKICK</span>
+              <img src="assets/golden-retriever.svg" alt="Illustration of a Golden Retriever." width="320" height="220">
+              <span class="art-number">02</span>
+            </div>
+            <div class="dog-info">
+              <div class="dog-title-row"><h3>Golden Retriever</h3><span class="trait">Gentle</span></div>
+              <p class="dog-description">A kind-hearted companion who loves being with people.</p>
+              <dl class="dog-facts">
+                <div><dt>Size</dt><dd>Large</dd></div>
+                <div><dt>Personality</dt><dd>Patient, gentle, and playful</dd></div>
+                <div><dt>Everyday care</dt><dd>Regular brushing and active play</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="dog-card poodle-card" id="poodle">
+            <div class="dog-art">
+              <span class="art-label">THE CLEVER CLOWN</span>
+              <img src="assets/poodle.svg" alt="Illustration of a Poodle." width="320" height="220">
+              <span class="art-number">03</span>
+            </div>
+            <div class="dog-info">
+              <div class="dog-title-row"><h3>Poodle</h3><span class="trait">Bright</span></div>
+              <p class="dog-description">A quick learner with a spring in their step and curls to spare.</p>
+              <dl class="dog-facts">
+                <div><dt>Size</dt><dd>Small, medium, or large</dd></div>
+                <div><dt>Personality</dt><dd>Smart, lively, and affectionate</dd></div>
+                <div><dt>Everyday care</dt><dd>Regular coat grooming and brain games</dd></div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">&#10022;</span><span>Virtual Dog Park</span></a>
+      <p>Made for dog people, and people who are about to be.</p>
+      <a class="back-to-top" href="#home">Back to top <span aria-hidden="true">&#8593;</span></a>
+    </footer>
+  </body>
+</html>

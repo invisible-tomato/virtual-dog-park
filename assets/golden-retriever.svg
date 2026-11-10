@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title">
+  <title id="title">A happy Golden Retriever</title>
+  <ellipse cx="160" cy="195" rx="77" ry="10" fill="#8c795f" opacity=".16"/>
+  <path d="M105 142c-12 4-21 17-24 34-2 11 3 17 11 13 12-5 19-20 25-34" fill="#c58435"/>
+  <path d="M105 127c4-26 24-40 56-40 34 0 53 17 54 46l-5 43c-2 14-14 21-30 21h-43c-19 0-29-9-31-25z" fill="#e4ad55"/>
+  <path d="M124 139c-12-4-19-15-18-29 1-15 10-25 23-22 12 2 17 18 15 34l-2 20z" fill="#b87736"/>
+  <path d="M193 138c12-5 18-17 16-31-2-14-12-23-24-19-12 4-15 20-12 35l4 15z" fill="#b87736"/>
+  <path d="M128 108c9-13 22-19 36-19 17 0 31 8 39 21-5 16-16 24-38 25-20 0-32-8-37-27z" fill="#edc16e"/>
+  <path d="M130 145c5-5 12-5 17 0m24 0c5-5 12-5 17 0" fill="none" stroke="#44372c" stroke-linecap="round" stroke-width="4"/>
+  <ellipse cx="161" cy="162" rx="27" ry="18" fill="#fff7e6"/>
+  <path d="M152 154c0-5 4-9 9-9s9 4 9 9c0 3-3 5-9 5s-9-2-9-5z" fill="#322f2c"/>
+  <path d="M161 159v8m0 0c-6 5-12 5-17 1m17-1c5 5 12 5 17 1" fill="none" stroke="#a96851" stroke-linecap="round" stroke-width="2.5"/>
+  <path d="M126 184v21m22-19v20m28-20v20m18-22v21" fill="none" stroke="#d49b4b" stroke-linecap="round" stroke-width="9"/>
+  <path d="M118 206h15m4 0h15m20 0h15m3 0h14" stroke="#4b4137" stroke-linecap="round" stroke-width="5"/>
+  <path d="M120 179c8 7 17 11 27 12m34-1c8-2 14-5 20-10" fill="none" stroke="#f5d894" stroke-linecap="round" stroke-width="5"/>
+  <path d="M141 112c7-5 14-7 22-7" fill="none" stroke="#fff0c4" stroke-linecap="round" stroke-width="4"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title">
+  <title id="title">A curly-coated Poodle</title>
+  <ellipse cx="160" cy="195" rx="70" ry="10" fill="#777383" opacity=".15"/>
+  <path d="M119 143c-10 0-19 10-21 25-2 12 2 20 9 17 10-4 17-19 21-32" fill="#8d829e"/>
+  <path d="M112 129c0-23 17-39 48-39 31 0 49 16 50 40l-6 45c-2 15-12 23-29 23h-35c-17 0-28-9-29-25z" fill="#aca1ba"/>
+  <path d="M131 106c7-9 18-14 31-14 14 0 25 6 32 16-6 12-15 17-31 17-14 0-25-5-32-19z" fill="#c4b8ce"/>
+  <path d="M114 119c-13-5-19-16-15-28 4-12 17-16 28-8 8 6 10 19 4 32l-7 13z" fill="#766b87"/>
+  <path d="M202 116c13-7 17-18 11-29-6-11-19-13-29-3-7 8-7 20 1 32l9 11z" fill="#766b87"/>
+  <circle cx="128" cy="97" r="10" fill="#a99bb8"/><circle cx="151" cy="88" r="11" fill="#b9acc6"/><circle cx="174" cy="90" r="11" fill="#a99bb8"/><circle cx="193" cy="101" r="10" fill="#b9acc6"/>
+  <path d="M133 143c5-5 12-5 17 0m19 0c5-5 12-5 17 0" fill="none" stroke="#393541" stroke-linecap="round" stroke-width="4"/>
+  <ellipse cx="160" cy="161" rx="25" ry="17" fill="#f8f2f6"/>
+  <path d="M151 153c0-5 4-9 9-9s9 4 9 9c0 3-3 5-9 5s-9-2-9-5z" fill="#302d32"/>
+  <path d="M160 159v8m0 0c-5 5-11 5-15 1m15-1c5 5 11 5 15 1" fill="none" stroke="#8e6477" stroke-linecap="round" stroke-width="2.5"/>
+  <path d="M129 183v21m18-20v21m28-21v21m17-22v22" fill="none" stroke="#9488a2" stroke-linecap="round" stroke-width="8"/>
+  <path d="M121 205h14m-1 0h14m22 0h14m-2 0h14" stroke="#48434c" stroke-linecap="round" stroke-width="5"/>
+  <path d="M140 112c7-5 14-7 21-7" fill="none" stroke="#f1e8f2" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="110" cy="169" r="9" fill="#c2b5cb"/><circle cx="205" cy="169" r="9" fill="#c2b5cb"/>
+</svg>
