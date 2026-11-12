@@ -155,9 +155,17 @@
               <div><dt>Growth stage</dt><dd id="profile-stage"></dd></div>
               <div><dt>Happiness</dt><dd id="profile-happiness"></dd></div>
             </dl>
+            <div class="growth-section">
+              <div class="growth-labels"><span>Puppy</span><span>Adult Dog</span></div>
+              <div class="growth-track" id="growth-track" role="progressbar" aria-label="Dog growth" aria-valuemin="1" aria-valuemax="4" aria-valuenow="1" aria-valuetext="Puppy">
+                <span class="growth-fill" id="growth-fill"></span>
+              </div>
+            </div>
             <div class="care-actions" aria-label="Care for your dog">
               <button class="button button-care" id="feed-button" type="button"><span aria-hidden="true">&#9829;</span> Feed</button>
               <button class="button button-care" id="play-button" type="button"><span aria-hidden="true">&#10022;</span> Play</button>
+              <button class="button button-care" id="next-day-button" type="button"><span aria-hidden="true">&#8594;</span> Next Day</button>
+              <button class="button button-reset" id="start-over-button" type="button">Start Over</button>
             </div>
             <p class="care-message" id="care-message" role="status" aria-live="polite"></p>
           </section>
