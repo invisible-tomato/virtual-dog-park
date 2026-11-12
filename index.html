@@ -14,7 +14,10 @@
         <span class="brand-mark" aria-hidden="true">&#10022;</span>
         <span>Virtual Dog Park</span>
       </a>
-      <a class="nav-link" href="#encyclopedia">Dog encyclopedia <span aria-hidden="true">&#8599;</span></a>
+      <nav class="topbar-links" aria-label="Main navigation">
+        <a class="nav-link" href="#encyclopedia">Dog encyclopedia <span aria-hidden="true">&#8599;</span></a>
+        <a class="nav-link" href="#my-dog">My Virtual Dog <span aria-hidden="true">&#8599;</span></a>
+      </nav>
     </header>
 
     <main id="home">
@@ -106,6 +109,58 @@
               </dl>
             </div>
           </article>
+        </div>
+      </section>
+
+      <section class="virtual-dog-section" id="my-dog" aria-labelledby="my-dog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-eyebrow">A PAL OF YOUR VERY OWN</p>
+            <h2 id="my-dog-title">My Virtual Dog</h2>
+            <p class="section-intro">Choose a breed, pick a name, and start your new friendship.</p>
+          </div>
+        </div>
+
+        <div class="virtual-dog-layout">
+          <form class="adopt-panel" id="adopt-form" novalidate>
+            <h3>Bring home a pal</h3>
+            <div class="form-field">
+              <label for="dog-name">Dog's name</label>
+              <input id="dog-name" name="dog-name" type="text" maxlength="20" aria-required="true" aria-describedby="name-guidance">
+              <span class="field-guidance" id="name-guidance">Up to 20 characters. Extra spaces around the name are ignored.</span>
+            </div>
+            <div class="form-field">
+              <label for="dog-breed">Choose a breed</label>
+              <select id="dog-breed" name="dog-breed">
+                <option value="Beagle">Beagle</option>
+                <option value="Golden Retriever">Golden Retriever</option>
+                <option value="Poodle">Poodle</option>
+              </select>
+            </div>
+            <button class="button button-primary adopt-button" type="submit">Adopt <span aria-hidden="true">&#8594;</span></button>
+            <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          </form>
+
+          <section class="dog-profile" id="dog-profile" aria-labelledby="profile-title" hidden>
+            <div class="profile-heading">
+              <div>
+                <p class="eyebrow section-eyebrow">YOUR NEW BEST FRIEND</p>
+                <h3 id="profile-title"><span id="profile-name"></span></h3>
+                <p class="profile-breed" id="profile-breed"></p>
+              </div>
+              <span class="profile-paw" aria-hidden="true">&#10022;</span>
+            </div>
+            <dl class="profile-stats">
+              <div><dt>Day</dt><dd id="profile-day"></dd></div>
+              <div><dt>Growth stage</dt><dd id="profile-stage"></dd></div>
+              <div><dt>Happiness</dt><dd id="profile-happiness"></dd></div>
+            </dl>
+            <div class="care-actions" aria-label="Care for your dog">
+              <button class="button button-care" id="feed-button" type="button"><span aria-hidden="true">&#9829;</span> Feed</button>
+              <button class="button button-care" id="play-button" type="button"><span aria-hidden="true">&#10022;</span> Play</button>
+            </div>
+            <p class="care-message" id="care-message" role="status" aria-live="polite"></p>
+          </section>
         </div>
       </section>
     </main>

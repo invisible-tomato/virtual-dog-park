@@ -40,6 +40,7 @@ button { font: inherit; }
 .brand { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; }
 .brand-mark { color: #da7656; font-size: 21px; line-height: 1; }
 .nav-link, .back-to-top { color: var(--muted); font-size: 13px; font-weight: 600; }
+.topbar-links { display: flex; align-items: center; gap: 24px; }
 .nav-link span { margin-left: 5px; }
 
 .welcome {
@@ -127,6 +128,35 @@ h3 { margin-bottom: 5px; font-family: var(--serif); font-size: 22px; font-weight
 .dog-facts dt { color: #78867b; }
 .dog-facts dd { margin: 0; color: #35473c; font-weight: 600; }
 
+.virtual-dog-section { padding: 68px clamp(22px, 7.3vw, 112px) 82px; background: #edf2e8; }
+.virtual-dog-section .section-heading { max-width: 1230px; margin-bottom: 24px; }
+.virtual-dog-layout { display: grid; grid-template-columns: minmax(250px, .8fr) minmax(0, 1.2fr); gap: 19px; max-width: 1230px; margin: 0 auto; align-items: stretch; }
+.adopt-panel, .dog-profile { min-width: 0; padding: 25px; border: 1px solid #dfe6d9; border-radius: 5px; background: var(--white); }
+.adopt-panel h3 { margin-bottom: 20px; }
+.form-field { display: grid; gap: 6px; margin-bottom: 16px; }
+.form-field label { color: #35473c; font-size: 12px; font-weight: 700; }
+.form-field input, .form-field select { width: 100%; min-height: 43px; padding: 9px 11px; border: 1px solid #d9e0d5; border-radius: 3px; background: #fff; color: var(--ink); font: inherit; font-size: 13px; }
+.form-field input:focus, .form-field select:focus { outline: 2px solid #789874; outline-offset: 2px; }
+.field-guidance { color: #7a867d; font-size: 10px; line-height: 1.5; }
+.adopt-button { margin-top: 1px; }
+.form-message, .care-message { min-height: 23px; margin: 12px 0 0; color: #496c50; font-size: 12px; font-weight: 600; }
+.form-message.is-error { color: #a64e3c; }
+.dog-profile[hidden] { display: none; }
+.dog-profile { display: flex; flex-direction: column; justify-content: center; }
+.profile-heading { display: flex; align-items: start; justify-content: space-between; gap: 15px; }
+.profile-heading .eyebrow { margin-bottom: 6px; }
+.profile-heading h3 { overflow-wrap: anywhere; margin-bottom: 2px; font-size: 27px; }
+.profile-breed { margin-bottom: 18px; color: var(--muted); font-size: 13px; }
+.profile-paw { display: grid; width: 42px; height: 42px; flex: 0 0 auto; place-items: center; border-radius: 50%; background: #f5e8d5; color: #b66b50; font-size: 21px; }
+.profile-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; border-top: 1px solid #edf0e9; border-bottom: 1px solid #edf0e9; }
+.profile-stats div { padding: 14px 10px 14px 0; }
+.profile-stats dt { margin-bottom: 4px; color: #78867b; font-size: 11px; }
+.profile-stats dd { margin: 0; color: #35473c; font-size: 14px; font-weight: 700; }
+.care-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 17px; }
+.button-care { min-width: 98px; border: 1px solid #dfe6d9; background: #f2f5ed; color: var(--green); }
+.button-care:hover { background: #e7eee2; }
+.button-care span { color: #cb7051; }
+
 .site-footer { min-height: 83px; border-top: 1px solid var(--line); background: rgba(255,255,255,.35); }
 .footer-brand { font-size: 12px; }
 .footer-brand .brand-mark { font-size: 17px; }
@@ -147,6 +177,8 @@ h3 { margin-bottom: 5px; font-family: var(--serif); font-size: 22px; font-weight
 
 @media (max-width: 640px) {
   .topbar { min-height: 64px; padding: 0 20px; }
+  .topbar-links { gap: 12px; }
+  .nav-link { font-size: 10px; }
   .welcome { min-height: auto; grid-template-columns: 1fr; gap: 27px; padding: 52px 22px 65px; }
   .welcome-copy { padding-bottom: 0; }
   h1 { font-size: 54px; }
@@ -154,9 +186,15 @@ h3 { margin-bottom: 5px; font-family: var(--serif); font-size: 22px; font-weight
   .park-scene { width: min(100%, 430px); justify-self: center; }
   .welcome-footer { right: 22px; bottom: 20px; left: 22px; font-size: 8px; }
   .encyclopedia { padding: 57px 20px 62px; }
+  .virtual-dog-section { padding: 54px 20px 62px; }
   .section-heading { align-items: start; margin-bottom: 22px; }
   .dog-count { margin-top: 3px; }
   .dog-grid { grid-template-columns: 1fr; gap: 16px; max-width: 460px; }
+  .virtual-dog-layout { grid-template-columns: 1fr; gap: 14px; max-width: 460px; }
+  .adopt-panel, .dog-profile { padding: 19px; }
+  .profile-stats div { padding-right: 6px; }
+  .profile-stats dt { font-size: 10px; }
+  .profile-stats dd { font-size: 12px; }
   .dog-card { display: grid; grid-template-columns: minmax(130px, .82fr) minmax(0, 1.18fr); }
   .dog-art { min-height: 100%; }
   .dog-art img { width: 100%; height: auto; min-height: 160px; }
